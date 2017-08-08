@@ -1,0 +1,68 @@
+body {
+	font-family: Courier, sans-serif;
+}
+
+.animalType {
+	margin-top: 10px;
+	width: 100%;
+	clear: both;
+	float: left;
+}
+
+.animalType h2 {
+	padding-left: 20px;
+}
+
+.petFoodContainer {
+	width: 40%;
+	margin: 1% 1% 2% 1%;
+	padding: 20px;
+	border: 5px solid red;
+	border-radius: 10px;
+	float: left;
+}
+
+.breedNames {
+	border-bottom: 3px solid black;
+	padding-left: 10px auto 10px auto;	
+	
+}
+
+.breedNames h3 {
+	padding-left: 10px;
+	margin-bottom: 0;
+}
+
+.breedContainer {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.breed {
+	margin: 10px;
+}
+
+.foodName {
+	border-bottom: 3px solid black;
+	padding-left: 10px;
+}
+
+.foodType {
+	border-bottom: 3px solid black;
+	padding-left: 10px;
+}
+
+.typeContainer {
+	display: flex;
+	width: 100%;
+	border: 2px solid darkgray;
+	border-radius: 10px;
+	margin-top: 15px;
+	padding: 10px 0;
+}
+
+.sizeAndPrice {
+	flex-grow: 1;
+	font-weight: bold;
+	padding: 5px 10px;
+}
